@@ -7,24 +7,23 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <style>
     body { margin: 0; font-family: sans-serif; background: #f7f7f7; }
-    .container { display: flex; flex-wrap: wrap; }
+    .container { display: flex; flex-wrap: wrap; max-width: 1000px; margin: 0 auto; }
     nav { background: #222; color: #fff; padding: 20px; width: 250px; min-height: 100vh; box-sizing: border-box; }
     nav ul { list-style: none; padding: 0; }
     nav li { margin: 15px 0; }
     nav a { color: #fff; text-decoration: none; font-size: 1em; }
-    main { flex: 1; padding: 30px; box-sizing: border-box; max-width: calc(100% - 250px); background: #fff; }
+    main { flex: 1; padding: 30px; box-sizing: border-box; background: #fff; }
     header { text-align: center; margin-bottom: 30px; }
     header h1 { margin: 0; color: #222; }
     section { margin-bottom: 40px; }
     .price, .cta { background: #f1faff; border-left: 5px solid #2196f3; padding: 15px; margin-top: 15px; }
-    .price ul, .cta ul { padding-left: 20px; }
     .responsive-img { max-width: 100%; height: auto; border: 1px solid #ddd; margin: 10px 0; }
     footer { text-align: center; padding: 20px; color: #888; font-size: 0.9em; }
     .whatsapp { position: fixed; bottom: 20px; right: 20px; background-color: #25d366; border-radius: 50%; width: 60px; height: 60px; display: flex; justify-content: center; align-items: center; box-shadow: 0 4px 10px rgba(0,0,0,0.2); z-index: 1000; }
     .whatsapp img { width: 35px; height: 35px; }
     @media (max-width: 768px) {
       nav { width: 100%; min-height: auto; }
-      main { max-width: 100%; }
+      main { width: 100%; }
       .container { flex-direction: column; }
     }
   </style>
@@ -46,7 +45,7 @@
         <h1>DOR.PEEPHOLE</h1>
         <p>Установка видеоглазков Ezviz — безопасно и удобно</p>
       </header>
-      <section>
+      <section id="advert">
         <h2>Безопасность начинается с вашей двери</h2>
         <img src="images/1.jpg" alt="Ezviz DP2C обзор" class="responsive-img">
         <p>Мы предлагаем полный комплекс: подбор, установку и настройку видеоглазков Ezviz DP2 и DP2C.</p>
@@ -86,15 +85,11 @@
       <section id="video">
         <h2>Видеообзор установки</h2>
         <div class="video-wrapper" style="margin: 20px 0;">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/zdW2TaZOBE0?si=BzRWYch8Z0je9R6l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-        <div class="cta">
-          <p><strong>Отправить заявку на установку?</strong></p>
-          <p><a href="https://api.whatsapp.com/send?phone=77088422915&text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%2C%20%D1%8F%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20dorpeephole.kz%2C%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B7%D0%B0%D1%8F%D0%B2%D0%BA%D1%83%20%D0%BD%D0%B0%20%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D1%83" target="_blank">Перейти в WhatsApp</a></p>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/zdW2TaZOBE0?si=BzRWYch8Z0je9R6l" title="Видеообзор установки" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </section>
     </main>
-    <a href="https://api.whatsapp.com/send?phone=77088422915&text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%2C%20%D1%8F%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20dorpeephole.kz%2C%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B7%D0%B0%D1%8F%D0%B2%D0%BA%D1%83%20%D0%BD%D0%B0%20%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D1%83" class="whatsapp" target="_blank">
+    <a href="https://api.whatsapp.com/send?phone=77088422915&text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%2C%20%D1%8F%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20dorpeephole.kz%2C%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B7%D0%B0%D1%8F%D0%B2%D0%BA%D1%83" class="whatsapp" target="_blank">
       <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
     </a>
   </div>
