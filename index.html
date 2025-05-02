@@ -14,8 +14,9 @@
     nav a { color: #fff; text-decoration: none; font-size: 1em; }
     main { flex: 1; padding: 30px; box-sizing: border-box; background: #fff; }
     header { text-align: center; margin-bottom: 30px; }
-    header h1 { margin: 0; color: #222; }
     .logo { width: 120px; height: auto; margin-bottom: 15px; }
+    header h1 { margin: 0; color: #222; }
+    header p { margin: 5px 0 0; color: #555; }
     section { margin-bottom: 40px; }
     .price, .cta { background: #f1faff; border-left: 5px solid #2196f3; padding: 15px; margin-top: 15px; }
     .price ul, .cta ul { padding-left: 20px; }
@@ -35,13 +36,13 @@
     <nav>
       <ul>
         <li><a href="#advert">Рекламная страница</a></li>
-        <li><a href="#install-phone">Установка на телефон</a></li>
-        <li><a href="#dp2c">Работа с Ezviz DP2C</a></li>
-        <li><a href="#dp2">Работа с Ezviz DP2</a></li>
         <li><a href="#why-important">Почему это важно</a></li>
         <li><a href="#pricing">Цены и варианты оплаты</a></li>
         <li><a href="#includes">Что входит в комплект</a></li>
-        <li><a href="#cloud-pay">Облачное хранение</a></li>
+        <li><a href="#install-phone">Установка на телефон</a></li>
+        <li><a href="#dp2c">Работа с Ezviz DP2C</a></li>
+        <li><a href="#dp2">Работа с Ezviz DP2</a></li>
+        <li><a href="#cloud-pay">Оплата облачного хранения</a></li>
         <li><a href="#video">Видеообзор установки</a></li>
       </ul>
     </nav>
@@ -64,8 +65,8 @@
         <h2>Цены и варианты оплаты</h2>
         <div class="price">
           <ul>
-            <li><strong>Наличные / перевод</strong> — 99 000 ₸</li>
-            <li><strong>Рассрочка (до 12 мес)</strong> — 105 000 ₸ (8 750 ₸/мес)</li>
+            <li><strong>Наличные / перевод</strong> — 99 000 ₸</li>
+            <li><strong>Рассрочка (до 12 мес)</strong> — 105 000 ₸ (8 750 ₸/мес)</li>
           </ul>
           <p><em>Установка только в Астане</em></p>
         </div>
@@ -81,14 +82,37 @@
           <li>Гарантия и поддержка</li>
         </ul>
       </section>
+      <section id="install-phone">
+        <h2>Установка на телефон</h2>
+        <p>Отсканируйте <strong>QR-код на корпусе видеоглазка</strong>, чтобы установить приложение EZVIZ на свой смартфон.</p>
+        <p>После установки создайте учётную запись и подключите свой видеоглазок за пару минут.</p>
+      </section>
+      <section id="dp2c">
+        <h2>Работа с Ezviz DP2C</h2>
+        <img src="images/2.jpg" alt="Интерфейс DP2C" class="responsive-img">
+        <p>Обзор 155°, двусторонняя связь и ночное видение — компактная и беспроводная модель без сенсорного экрана.</p>
+      </section>
+      <section id="dp2">
+        <h2>Работа с Ezviz DP2</h2>
+        <img src="images/3.jpg" alt="Интерфейс DP2" class="responsive-img">
+        <p>Сенсорный экран, поддержка до 256 ГБ microSD, облачное хранение и интуитивный интерфейс для просмотра записей.</p>
+      </section>
       <section id="cloud-pay">
-        <h2>Облачное хранилище (CloudPlay)</h2>
+        <h2>Оплата за облачное хранение</h2>
+        <p>Подключение к EZVIZ CloudPlay даёт:</p>
         <ul>
-          <li>Защита видео даже при краже устройства</li>
+          <li>Автоматическое сохранение важных событий</li>
+          <li>Защиту данных при утере устройства</li>
           <li>Доступ из любого места через приложение</li>
-          <li>Пробный период: 30 дней</li>
-          <li>Гибкие планы: от $3.99 в месяц</li>
         </ul>
+        <div class="price">
+          <p><strong>Тарифы CloudPlay:</strong></p>
+          <ul>
+            <li>7 дней записи — $3.99/мес</li>
+            <li>30 дней записи — $6.99/мес</li>
+          </ul>
+        </div>
+        <p>Оплата производится через <strong>банковскую карту</strong> или <strong>счёт в приложение</strong>.</p>
       </section>
       <section id="video">
         <h2>Видеообзор установки</h2>
@@ -101,7 +125,7 @@
         </div>
       </section>
     </main>
-    <a class="whatsapp" href="https://api.whatsapp.com/send?phone=77088422915&text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%2C%20%D1%8F%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20dorpeephole.kz%2C%20%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0%20%D0%BC%D0%BE%D0%B6%D0%B5%D1%82%D0%B5%20%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%D0%B3%D0%BB%D0%B0%D0%B7%D0%BA%3F" target="_blank">
+    <a class="whatsapp" href="https://api.whatsapp.com/send?phone=77088422915&text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%2C%20%D1%8F%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20dorpeephole.kz%2C%20%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0%20%D0%BC%D0%BE%D0%B6%D0%B5%D1%82%D0%B5%20%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B4%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B9%20%D0%B3%D0%BB%D0%B0%D0%B7%D0%BE%D0%BA%3F" target="_blank">
       <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
     </a>
   </div>
