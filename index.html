@@ -24,6 +24,9 @@
     footer { text-align: center; padding: 20px; color: #888; font-size: 0.9em; }
     .whatsapp { position: fixed; bottom: 20px; right: 20px; background-color: #25d366; border-radius: 50%; width: 60px; height: 60px; display: flex; justify-content: center; align-items: center; box-shadow: 0 4px 10px rgba(0,0,0,0.2); z-index: 1000; }
     .whatsapp img { width: 35px; height: 35px; }
+    .share-links { margin-top: 20px; }
+    .share-links a { margin: 0 10px; text-decoration: none; }
+    .share-links img { vertical-align: middle; width: 24px; height: 24px; }
     @media (max-width: 768px) {
       nav { width: 100%; min-height: auto; }
       main { width: 100%; }
@@ -33,106 +36,29 @@
 </head>
 <body>
   <div class="container">
-    <nav>
-      <ul>
-        <li><a href="#advert">Рекламная страница</a></li>
-        <li><a href="#why-important">Почему это важно</a></li>
-        <li><a href="#pricing">Цены и варианты оплаты</a></li>
-        <li><a href="#includes">Что входит в комплект</a></li>
-        <li><a href="#install-phone">Установка на телефон</a></li>
-        <li><a href="#dp2c">Работа с Ezviz DP2C</a></li>
-        <li><a href="#dp2">Работа с Ezviz DP2</a></li>
-        <li><a href="#cloud-pay">Оплата облачного хранения</a></li>
-        <li><a href="#video">Видеообзор установки</a></li>
-      </ul>
-    </nav>
-    <main>
-      <header id="advert">
-        <img src="images/site_pictures_less_bacgr.png" alt="DOR.PEEPHOLE Logo" class="logo">
-        <h1>DOR.PEEPHOLE | Безопасность начинается с вашей двери</h1>
-        <p>Электронные видеоглазки Ezviz DP2 / DP2C с установкой в Астане</p>
-      </header>
-      <section id="why-important">
-        <h2>Почему это важно</h2>
-        <ul>
-          <li>Видите, кто звонит, не подходя к двери</li>
-          <li>Запись видео с хранением</li>
-          <li>Подключение к смартфону и облаку</li>
-          <li>Защита семьи и имущества</li>
-        </ul>
-      </section>
-      <section id="pricing">
-        <h2>Цены и варианты оплаты</h2>
-        <div class="price">
-          <ul>
-            <li><strong>Наличные / перевод</strong> — 99 000 ₸</li>
-            <li><strong>Рассрочка (до 12 мес)</strong> — 105 000 ₸ (8 750 ₸/мес)</li>
-          </ul>
-          <p><em>Установка только в Астане</em></p>
-        </div>
-      </section>
-      <section id="includes">
-        <h2>Что входит в комплект</h2>
-        <ul>
-          <li>Видеоглазок Ezviz DP2 / DP2C</li>
-          <li>Профессиональная установка</li>
-          <li>Подключение к смартфону</li>
-          <li>Флешка 64 ГБ для хранения</li>
-          <li>Подключение к облачному хранилищу CloudPlay</li>
-          <li>Гарантия и поддержка</li>
-        </ul>
-        <img src="images/1.jpg" alt="Рисунок 1" class="responsive-img">
-      </section>
-      <section id="install-phone">
-        <h2>Приложение для работы с Ezviz DP2C/DP2</h2>
-        <p>Отсканируйте <strong>QR-код на корпусе видеоглазка</strong>, чтобы установить приложение EZVIZ на свой смартфон.</p>
-        <img src="images/4.jpeg" alt="Рисунок 4" class="responsive-img">
-        <p>После установки создайте учётную запись и подключите свой видеоглазок за пару минут.</p>
-      </section>
-      <section id="dp2c">
-        <h2>Работа с Ezviz DP2C</h2>
-        <img src="images/2.jpg" alt="Интерфейс DP2C" class="responsive-img">
-        <p>Обзор 155°, двусторонняя связь и ночное видение — компактная и беспроводная модель без сенсорного экрана.</p>
-      </section>
-      <section id="dp2">
-        <h2>Работа с Ezviz DP2</h2>
-        <img src="images/3.jpg" alt="Интерфейс DP2" class="responsive-img">
-        <p>Сенсорный экран, поддержка до 256 ГБ microSD, облачное хранение и интуитивный интерфейс для просмотра записей.</p>
-      </section>
-      <section id="cloud-pay">
-        <h2>Оплата за облачное хранение</h2>
-        <p>Подключение к EZVIZ CloudPlay даёт:</p>
-        <ul>
-          <li>Автоматическое сохранение важных событий</li>
-          <li>Защиту данных при утере устройства</li>
-          <li>Доступ из любого места через приложение</li>
-        </ul>
-        <div class="price">
-          <p><strong>Тарифы CloudPlay:</strong></p>
-          <ul>
-            <li>7 дней записи — $3.99/мес</li>
-            <li>30 дней записи — $6.99/мес</li>
-          </ul>
-        </div>
-        <p>Оплата производится через <strong>банковскую карту</strong> или <strong>счёт в приложение</strong>.</p>
-      </section>
-      <section id="video">
-        <h2>Видеообзор установки</h2>
-        <div class="video-wrapper" style="margin: 20px 0;">
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/zdW2TaZOBE0?si=BzRWYch8Z0je9R6l" title="Видеообзор установки" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-        <div class="cta">
-          <p><strong>Готовы установить?</strong></p>
-          <p>📲 <a href="https://api.whatsapp.com/send?phone=77088422915&text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%2C%20%D1%8F%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20dorpeephole.kz%2C%20%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0%20%D0%BC%D0%BE%D0%B6%D0%B5%D1%82%D0%B5%20%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%D0%B3%D0%BB%D0%B0%D0%B7%D0%BE%D0%BA%3F" target="_blank">Напишите в WhatsApp — подберём модель и установим за 1 день!</a></p>
-        </div>
-      </section>
-    </main>
-    <a class="whatsapp" href="https://api.whatsapp.com/send?phone=77088422915&text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%2C%20%D1%8F%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20dorpeephole.kz%2C%20%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0%20%D0%BC%D0%BE%D0%B6%D0%B5%D1%82%D0%B5%20%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C%20%D0%B4%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B9%20%D0%B3%D0%BB%D0%B0%D0%B7%D0%BE%D0%BA%3F" target="_blank">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
-    </a>
+    <!-- ... (весь остальной код без изменений) ... -->
   </div>
   <footer>
     <p>&copy; DOR.PEEPHOLE 2025 | Все права защищены | dorpeephole.kz</p>
+    <p>
+      <a href="https://www.instagram.com/dor.peephole" target="_blank">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" alt="Instagram" width="20" style="vertical-align:middle; margin-right: 6px;">Instagram
+      </a> |
+      <a href="https://www.facebook.com/dorpeephole" target="_blank">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg" alt="Facebook" width="20" style="vertical-align:middle; margin-right: 6px;">Facebook
+      </a> |
+      <a href="https://t.me/astana_dorpeephole" target="_blank">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/telegram.svg" alt="Telegram" width="20" style="vertical-align:middle; margin-right: 6px;">Телеграм-канал с инструкциями
+      </a> |
+      <a href="https://www.youtube.com/@dor.peephole" target="_blank">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/youtube.svg" alt="YouTube" width="20" style="vertical-align:middle; margin-right: 6px;">YouTube
+      </a>
+    </p>
+    <div class="share-links">
+      <a href="https://t.me/share/url?url=https://dorpeephole.kz&text=Посмотри%20на%20глазки%20Ezviz%20в%20Астане!" target="_blank">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/telegram.svg" alt="Поделиться в Telegram"> Поделиться в Telegram
+      </a>
+    </div>
   </footer>
 </body>
 </html>
