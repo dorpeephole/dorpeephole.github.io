@@ -200,21 +200,26 @@
 <!-- Скрипт для отслеживания клика по кнопке WhatsApp. 
      Лучше всего разместить его перед закрывающим тегом </body> -->
 <script>
-  // Находим кнопку по ее ID
-  var whatsappButton = document.getElementById('floatingWhatsappButton');
-
-  // Проверяем, что кнопка действительно найдена на странице
+  var whatsappButton = document.getElementById('floatingWhatsappButton'); // Убедитесь, что ID здесь и в HTML плавающей кнопки совпадает
   if (whatsappButton) {
-    // Добавляем "слушателя" события клика
     whatsappButton.addEventListener('click', function() {
-      // При клике отправляем событие 'Lead' в Facebook Pixel
       fbq('track', 'Lead');
-      // Это сообщение появится в консоли браузера для проверки. После успешной настройки его можно удалить.
       console.log('Facebook Pixel: Событие "Lead" отправлено для floatingWhatsappButton.');
     });
   } else {
-    // Если кнопка не найдена, выводим сообщение об ошибке в консоль.
     console.error('Кнопка WhatsApp с ID "floatingWhatsappButton" не найдена на странице.');
+  }
+</script>
+
+<script>
+  var inlineLink = document.getElementById('inlineWhatsappLink');
+  if (inlineLink) {
+    inlineLink.addEventListener('click', function() {
+      fbq('track', 'Lead');
+      console.log('Facebook Pixel: Событие "Lead" отправлено для inlineWhatsappLink.');
+    });
+  } else {
+    console.error('Ссылка WhatsApp с ID "inlineWhatsappLink" не найдена на странице.');
   }
 </script>
 </body>
