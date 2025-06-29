@@ -2,225 +2,45 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
+  <title>Проект завершён</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DOR.PEEPHOLE | Установка видеоглазков Ezviz</title>
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
   <style>
-    body { margin: 0; font-family: sans-serif; background: #f7f7f7; }
-    .container { display: flex; flex-wrap: wrap; max-width: 1000px; margin: 0 auto; }
-    nav { background: #222; color: #fff; padding: 20px; width: 250px; min-height: 100vh; box-sizing: border-box; }
-    nav ul { list-style: none; padding: 0; }
-    nav li { margin: 15px 0; }
-    nav a { color: #fff; text-decoration: none; font-size: 1em; }
-    main { flex: 1; padding: 30px; box-sizing: border-box; background: #fff; }
-    header { text-align: center; margin-bottom: 30px; }
-    .logo { width: 120px; height: auto; margin-bottom: 15px; }
-    header h1 { margin: 0; color: #222; }
-    header p { margin: 5px 0 0; color: #555; }
-    section { margin-bottom: 40px; }
-    .price, .cta { background: #f1faff; border-left: 5px solid #2196f3; padding: 15px; margin-top: 15px; }
-    .price ul, .cta ul { padding-left: 20px; }
-    .responsive-img { max-width: 100%; height: auto; border: 1px solid #ddd; margin: 10px 0; }
-    .social-icons a { margin: 0 10px; display: inline-block; }
-    .social-icons img { width: 24px; height: 24px; vertical-align: middle; }
-    footer { text-align: center; padding: 20px; color: #888; font-size: 0.9em; }
-    .whatsapp { position: fixed; bottom: 20px; right: 20px; background-color: #25d366; border-radius: 50%; width: 60px; height: 60px; display: flex; justify-content: center; align-items: center; box-shadow: 0 4px 10px rgba(0,0,0,0.2); z-index: 1000; }
-    .whatsapp img { width: 35px; height: 35px; }
-    @media (max-width: 768px) {
-      nav { width: 100%; min-height: auto; }
-      main { width: 100%; }
-      .container { flex-direction: column; }
+    body {
+      background-color: #0f1115;
+      color: #ffffff;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.2em;
+    }
+
+    p {
+      font-size: 1.2em;
+      max-width: 600px;
+      opacity: 0.8;
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9em;
+      opacity: 0.5;
     }
   </style>
-  <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window,document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '1859137671510644'); // Ваш ID пикселя
-    fbq('track', 'PageView');
-    fbq('track', 'Lead');
-  </script>
-  <noscript>
-    <img height="1" width="1" style="display:none"
-         src="https://www.facebook.com/tr?id=1859137671510644&ev=PageView&noscript=1"/>
-  </noscript>
 </head>
 <body>
-  <div class="container">
-    <nav>
-      <ul>
-        <li><a href="#advert">Рекламная страница</a></li>
-        <li><a href="#why-important">Почему это важно</a></li>
-        <li><a href="#gpt-video">AI-видеообзор (GPT)</a></li> <!-- 🔥 Новый пункт -->
-        <li><a href="#pricing">Цены и варианты оплаты</a></li>
-        <li><a href="#includes">Что входит в комплект</a></li>
-        <li><a href="#install-phone">Установка на телефон</a></li>
-        <li><a href="#dp2c">Работа с Ezviz DP2C</a></li>
-        <li><a href="#dp2">Работа с Ezviz DP2</a></li>
-        <li><a href="#cloud-pay">Оплата облачного хранения</a></li>
-        <li><a href="#video">Видеообзор установки</a></li>
-        <li><a href="#family-protect">Защита семьи и доверие родителей</a></li>
-      </ul>
-    </nav>
-    <main>
-      <header id="advert">
-        <img src="images/site_pictures_less_bacgr.png" alt="DOR.PEEPHOLE Logo" class="logo">
-        <h1>DOR.PEEPHOLE | Безопасность начинается с вашей двери</h1>
-        <p>Электронные видеоглазки Ezviz DP2 / DP2C с установкой в Астане</p>
-      </header>
-      <section id="why-important">
-        <h2>Почему это важно</h2>
-        <ul>
-          <li>Видите, кто звонит, не подходя к двери</li>
-          <li>Запись видео с хранением</li>
-          <li>Подключение к смартфону и облаку</li>
-          <li>Защита семьи и имущества</li>
-        </ul>
-      <section id="gpt-video">
-       <h2>Видео, созданное искусственным интеллектом</h2>
-       <p>Короткий видеообзор, созданный с помощью GPT — быстро и понятно о главном.</p>
-        <div class="video-container">
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/ZfZbN5-kwbc"
-         title="AI-видеоглазок Ezviz DP2C" frameborder="0"
-         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-         allowfullscreen></iframe>
-       </div>
-      </section>  
-      </section>
-      <section id="pricing">
-       <h2>Цены и варианты оплаты</h2>
-       <p><strong>Честная цена — без скрытых платежей</strong></p>
-       <div class="price">
-       <ul>
-       <li><strong>Полная цена (есть рассрочка или кредит)</strong> — 150 000 ₸</li>
-       <li><strong>Оплата Kaspi / наличными на месте</strong> — 125 000 ₸ <em>(скидка 25 000 ₸)</em></li>
-       </ul>
-       <p><em>Установка только в Астане. Цена включает видеоглазок, флешку 128 ГБ, монтаж, настройку и поддержку.</em></p>
-       <p><em>Установка только в Астане. Цена включает видеоглазок, флешку 128 ГБ = 70 000, монтаж = 30 000, настройку и поддержку.</em></p>
-       <p><em>Также мы платим за это объявление - реклама и продвижение. Экспертность, мы подобрали действительно хороший продукт 25 000</em></p>
-       </div>
-      </section>
-      <section id="includes">
-        <h2>Что входит в комплект</h2>
-        <ul>
-          <li>Видеоглазок Ezviz DP2 / DP2C</li>
-          <li>Профессиональная установка</li>
-          <li>Подключение к смартфону</li>
-          <li>Флешка 128 ГБ для хранения</li>
-          <li>Подключение к облачному хранилищу CloudPlay</li>
-          <li>Гарантия и поддержка</li>
-        </ul>
-        <img src="images/1.jpg" alt="Рисунок 1" class="responsive-img">
-      </section>
-      <section id="install-phone">
-        <h2>Приложение для работы с Ezviz DP2C/DP2</h2>
-        <p>Отсканируйте <strong>QR-код на корпусе видеоглазка</strong>, чтобы установить приложение EZVIZ на свой смартфон.</p>
-        <img src="images/4.jpeg" alt="Рисунок 4" class="responsive-img">
-        <p>После установки создайте учётную запись и подключите свой видеоглазок за пару минут.</p>
-      </section>
-      <section id="dp2c">
-        <h2>Работа с Ezviz DP2C</h2>
-        <img src="images/2.jpg" alt="Интерфейс DP2C" class="responsive-img">
-        <p>Обзор 155°, двусторонняя связь и ночное видение — компактная и беспроводная модель без сенсорного экрана.</p>
-      </section>
-      <section id="dp2">
-        <h2>Работа с Ezviz DP2</h2>
-        <img src="images/3.jpg" alt="Интерфейс DP2" class="responsive-img">
-        <p>Сенсорный экран, поддержка до 256 ГБ microSD, облачное хранение и интуитивный интерфейс для просмотра записей.</p>
-      </section>
-      <section id="cloud-pay">
-        <h2>Оплата за облачное хранение</h2>
-        <ul>
-          <li>Автоматическое сохранение важных событий</li>
-          <li>Защиту данных при утере устройства</li>
-          <li>Доступ из любого места через приложение</li>
-        </ul>
-        <div class="price">
-          <ul>
-            <li>7 дней записи — $3.99/мес</li>
-            <li>30 дней записи — $6.99/мес</li>
-          </ul>
-        </div>
-        <p>Оплата производится через <strong>банковскую карту</strong> или <strong>счёт в приложение</strong>.</p>
-      </section>
-      <section id="family-protect">
-       <h2>Защита семьи и доверие родителей</h2>
-         <p>
-    Видеоглазок сохраняет всё, что происходит у вашей двери: видео, звук, движения.  
-    Это не просто техника — это спокойствие для ваших близких.  
-    Когда дома одни дети или пожилые родители, вы всегда знаете, кто приходил и что происходило.  
-    <strong>Безопасность — не роскошь, а доверие и забота.</strong>  
-         </p>
-      </section>
-      <section id="video">
-        <h2>Видеообзор установки</h2>
-     <div class="video-wrapper" style="margin: 20px 0;">
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/P9PueSBJC4g?si=fcYFRqClRsvLWyrN" title="Видеообзор установки" frameborder="0" allowfullscreen></iframe>
-        </div>
-          <div class="video-wrapper" style="margin: 20px 0;">
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/zdW2TaZOBE0?si=BzRWYch8Z0je9R6l" title="Видеообзор установки" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <div class="video-wrapper" style="margin: 20px 0;">
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/mtbXeJoutMg?si=8aCdxIs6qqYarwlb" title="Дополнительное видео" frameborder="0" allowfullscreen></iframe>
-        <div style="background-color: #e9f6ff; padding: 15px; border-radius: 8px; margin-top: 10px;">
-        <strong>Готовы установить?</strong><br>
-         <a id="inlineWhatsappLink" href="https://api.whatsapp.com/send?phone=77088422915&text=Здравствуйте!%20Я%20с%20сайта%20dorpeephole.kz.%20Нажал(а)%20на%20заявку по%20WhatsApp%20—%20хочу%20установить%20видеоглазок.%20Когда%20удобно%20связаться?" target="_blank">
-  📲 Напишите нам в WhatsApp — подберём модель и установим за 1 день!
-         </a>
-  <p style="margin-top: 10px; font-size: 14px; color: #333;">
-  🔒 Даже самые современные технологии не заменят ваше внимание.<br>
-  Если чувствуете угрозу — не открывайте дверь.
-</p>
-<p style="margin-top: 5px; font-size: 14px; color: #333;">
-  📞 При необходимости — звоните <strong>112</strong>.
-</p>
-</div>
-      </section>
-    </main>
-   <a id="floatingWhatsappButton" class="whatsapp" href="https://api.whatsapp.com/send?phone=77088422915&text=Здравствуйте!%20Я%20с%20сайта%20dorpeephole.kz.%20Нажал(а)%20на%20зелёную%20кнопку%20WhatsApp%20—%20хочу%20установить%20видеоглазок.%20Когда%20удобно%20связаться?" target="_blank">
-   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
-   </a>
-  </div>
-  <footer>
-    <p>&copy; DOR.PEEPHOLE 2025 | Все права защищены | dorpeephole.kz</p>
-    <div class="social-icons">
-      <a href="https://www.instagram.com/dor.peephole" target="_blank"><img src="images/instagram.svg" alt="Instagram"></a>
-      <a href="https://www.facebook.com/dorpeephole.kz" target="_blank"><img src="images/facebook.svg" alt="Facebook"></a>
-      <a href="https://t.me/astana_dorpeephole" target="_blank"><img src="images/telegram.svg" alt="Telegram"></a>
-      <a href="https://www.youtube.com/@dor.peephole" target="_blank"><img src="images/youtube.svg" alt="YouTube"></a>
-      <a href="https://www.tiktok.com/@dor.peephole" target="_blank"><img src="images/tiktok.svg" alt="TikTok"></a>
-      <a href="https://t.me/share/url?url=https://dorpeephole.kz&text=Посмотри%20на%20Dor.PEEPHOLE!" target="_blank"><img src="images/share.svg" alt="Поделиться"></a>
-    </div>
-  </footer>
-<!-- Скрипт для отслеживания клика по кнопке WhatsApp. 
-     Лучше всего разместить его перед закрывающим тегом </body> -->
-<script>
-  var whatsappButton = document.getElementById('floatingWhatsappButton'); // Убедитесь, что ID здесь и в HTML плавающей кнопки совпадает
-  if (whatsappButton) {
-    whatsappButton.addEventListener('click', function() {
-      fbq('track', 'Lead');
-      console.log('Facebook Pixel: Событие "Lead" отправлено для floatingWhatsappButton.');
-    });
-  } else {
-    console.error('Кнопка WhatsApp с ID "floatingWhatsappButton" не найдена на странице.');
-  }
-</script>
+  <h1>Проект Dor Peephole завершён</h1>
+  <p>Спасибо всем, кто был с нами. Мы закрыли этот проект и продолжаем двигаться дальше.</p>
 
-<script>
-  var inlineLink = document.getElementById('inlineWhatsappLink');
-  if (inlineLink) {
-    inlineLink.addEventListener('click', function() {
-      fbq('track', 'Lead');
-      console.log('Facebook Pixel: Событие "Lead" отправлено для inlineWhatsappLink.');
-    });
-  } else {
-    console.error('Ссылка WhatsApp с ID "inlineWhatsappLink" не найдена на странице.');
-  }
-</script>
+  <div class="footer">© 2025 Sun Business Books</div>
 </body>
 </html>
